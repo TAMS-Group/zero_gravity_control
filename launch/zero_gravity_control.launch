@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- The default values for the decay and force_factor are defined in cfg/zero_gravity_control.cfg -->
+<launch>
+  <node name="zero_gravity_control_node" pkg="zero_gravity_control" type="zero_gravity_control_node" output="screen">
+    <param name="end_effector_frame" value="s_model_tool0" />
+    <param name="wrench_topic" value="robotiq_force_torque_wrench" />
+    <param name="cart_controller_topic" value="moveit_cartesian_traj_controller/cartesian_command" />
+  </node>
+</launch>

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>zero_gravity_control</name>
+  <version>0.0.1</version>
+  <description>The zero_gravity_control package</description>
+
+  <maintainer email="2scholz@informatik.uni-hamburg.de">Benjamin Scholz</maintainer>
+
+  <license>BSD</license>
+
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <build_export_depend>roscpp</build_export_depend>
+  <exec_depend>roscpp</exec_depend>
+</package>
